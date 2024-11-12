@@ -1,20 +1,20 @@
 public class Assignment {
 
-    private String numberOfAssignments;
+    private String numberOfAssignment;
 
     private String description;
 
-    public Assignment(String numberOfAssignments, String description) {
-        this.numberOfAssignments = numberOfAssignments;
+    public Assignment(String numberOfAssignment, String description) {
+        this.numberOfAssignment = numberOfAssignment;
         this.description = description;
     }
 
     public String getNumberOfAssignments() {
-        return numberOfAssignments;
+        return numberOfAssignment;
     }
 
     public void setNumberOfAssignments(String numberOfAssignments) {
-        this.numberOfAssignments = numberOfAssignments;
+        this.numberOfAssignment = numberOfAssignment;
     }
 
     public String getDescription() {
